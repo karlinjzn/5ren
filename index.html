@@ -1,0 +1,51 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <div>
+        <div class="carousel" style="margin: 40px 10px 70px 10px;">
+          <a class="carousel-item" href="#one!"><img src="images/yoghurt.jpg"></a>
+          <a class="carousel-item" href="#one!"><img src="images/latiao.jpg"></a>
+          <a class="carousel-item" href="#one!"><img src="images/water.jpg"></a>
+        </div>
+      </div>
+      <div class="welcome"><span>欢迎使用12号楼五仁便利店</span></div>
+      <div class="person">
+        <img src="images/mayun.jpg">
+      </div>
+      <div class="person-btns">
+        <ul>
+          <li class="person-btn"><a href="card-bag.html" class="row-btn white-text">&nbsp;&nbsp;卡券包&nbsp;&nbsp;</a></li>
+          <li class="person-btn"><a href="member.html" class="row-btn white-text">会员中心</a></li>
+          <li class="person-btn"><a href="secret.html" class="row-btn white-text">我的小蜜</a></li>
+        </ul>
+      </div>
+      <div class="guide">
+        <ul>
+          <li><a href="pay.html" class="guide-btn white-text">移动结账台</a></li>
+          <li><a href="index.html" class="guide-btn-active white-text">我的五仁</a></li>
+          <li><a href="shopping.html" class="guide-btn white-text">商品预览</a></li>
+        </ul>
+      </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+          // $('.carousel.carousel-slider').carousel({fullWidth: true});
+        });
+      </script>
+    </body>
+  </html>

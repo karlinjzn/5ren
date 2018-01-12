@@ -1,0 +1,120 @@
+.guide {
+	position: fixed;
+	background-color: #00bfa5;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.header {
+	position: fixed;
+	background-color: #00bfa5;
+	top: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.guide ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.guide-btn-active {
+	background-color: #80cbc4;
+	padding: 10px 10px 10px 10px;
+}
+
+.welcome {
+	margin-top: -30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.person {
+	width: 100%;
+	text-align: center;
+}
+
+.person-btns {
+	padding: 30px 10px 10px 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: -14px;
+}
+
+.person-btn {
+	background-color: #26a69a;
+}
+
+.person-btns ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px 10px 5px 10px;
+}
+
+.coupons {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.coupon {
+	padding: 10px 10px 10px 10px;
+}
+
+.personal-info {
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.shop-record {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.want-record {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.feedback {
+	margin-top: 50px;
+	padding: 10px;
+}
+
+.item-first {
+	background-color: #80cbc4 !important;
+}
+
+.service {
+	margin: 10px 10px 10px 10px;
+}
+
+.carousel {
+	width: 100% !important;
+}
+
+.description {
+	padding: 10px 10px 10px 10px;
+	font-size: 23px;
+}
+
+.pay-btns {
+	width: 100%;
+}
+
+.pay-btn {
+	background-color: #80cbc4;
+	margin: 10px 40px 10px 40px;
+	padding: 7px 10px 7px 10px;
+	cursor: pointer;
+}
+
+.scan {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
