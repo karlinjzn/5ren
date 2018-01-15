@@ -12,9 +12,12 @@
     </head>
 
     <body>
+       <!-- this is the fixed header to return to the index page -->
       <div class="header">
         <div class="left" style="margin-left: 10px;"><a href="index.html" class="white-text">返回</a></div>
       </div>
+
+      <!-- this part is the fake code scanner. We use the OpenCV for QR code which has not been implemented in this web page -->
       <div class="scan">
         <img src="images/code.jpg" width="100%">
       </div>
@@ -24,16 +27,17 @@
         <div class="pay-btn center" onclick="$('.tap-target').tapTarget('open');">查看购物车</div>
       </div>
 
-        <!-- Element Showed -->
-        <a id="cart" class="waves-effect waves-light btn btn-floating right" style="position: fixed; bottom: 60px;"><i class="material-icons">menu</i></a>
-        <!-- Tap Target Structure -->
-        <div class="tap-target" data-activates="cart">
-          <div class="tap-target-content">
-            <h5>我的购物车</h5>
-            <p>购物车为空，快去12号楼便利店转一转吧！</p>
-          </div>
+      <!-- Element Showed -->
+      <a id="cart" class="waves-effect waves-light btn btn-floating right" style="position: fixed; bottom: 60px;"><i class="material-icons">menu</i></a>
+      <!-- Tap Target Structure -->
+      <div class="tap-target" data-activates="cart">
+        <div class="tap-target-content">
+          <h5>我的购物车</h5>
+          <p>购物车为空，快去12号楼便利店转一转吧！</p>
         </div>
+      </div>
 
+      <!-- this is the guide bar for every page. use it jump to three main parts of our web -->
       <div class="guide">
         <ul>
           <li><a href="pay.html" class="guide-btn-active white-text">移动结账台</a></li>
